@@ -2,8 +2,6 @@
 import "@styles/global.css";
 
 import { SEO } from "astro-seo";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-
 import Menu from "@components/Menu/Menu.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
@@ -67,7 +65,6 @@ const description = props.description ?? BASE_DESCRIPTION;
 
     <Menu />
 
-    <SpeedInsights />
     <script>
       import "@global/smallDevice";
     </script>
